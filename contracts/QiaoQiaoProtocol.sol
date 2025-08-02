@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.27;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
@@ -39,7 +39,7 @@ interface IVault {
     function repay(TokenType tokenType, uint256 amount ,uint256 debt) payable external;
 }
 
-contract qqb_protocol is Ownable(msg.sender) {
+contract QiaoQiaoProtocol is Ownable(msg.sender) {
     address public usdt;
     address public usdc;
     IVault public vault;
