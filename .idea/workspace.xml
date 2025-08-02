@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e204d4a-3647-4848-97d7-c50b93afa004" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploymo.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploymo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/vaultTestmo.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/vaultTestmo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +71,23 @@
       <option name="presentableId" value="Default" />
       <updated>1754121498384</updated>
       <workItem from="1754121500296" duration="70000" />
-      <workItem from="1754124020484" duration="988000" />
+      <workItem from="1754124020484" duration="3842000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

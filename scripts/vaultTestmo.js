@@ -5,17 +5,17 @@ async function main() {
   
     console.log("Testing account:", deployer.address);
   
-    let val = await ethers.getContractAt("Vault","0xf4C41330F780875a1e9273e7D5B84A09F567Cc4d");
+    let val = await ethers.getContractAt("Vault","0x1313B5EBe1CbFFC7721e4acBD302F21aAea378e5");
 
     let lpeth = await ethers.getContractAt("lps",await val.lpeth());
 
-    let lv = await ethers.getContractAt("LeverageTrading","0xeA315B6a49C3117A16d71B85030FE459C6CA92a9"); 
+    let lv = await ethers.getContractAt("QiaoQiaoProtocol","0x8247Fdc8e814A8859ba8E030BeEc1356F30078cd");
 
     const testController = {
-        contractInfo:true,
+        contractInfo:false,
         depositETH : false,
         whiteList :false,
-        leverageBuyETH:false,
+        leverageBuyETH:true,
         leverageInfo:false,
         leverageSellETH:false,
         withdrawETH : false,
@@ -43,7 +43,7 @@ async function main() {
 
     if(testController.whiteList)
         {
-            await val.updateWhiteList("0xeA315B6a49C3117A16d71B85030FE459C6CA92a9",true);
+            await val.updateWhiteList("0x8247Fdc8e814A8859ba8E030BeEc1356F30078cd",true);
             console.log("🍺 Update white list")
         }
 
