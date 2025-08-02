@@ -74,9 +74,9 @@ contract QiaoQiaoProtocol is Ownable(msg.sender) {
         usdc = _usdc;
         vault = IVault(_vault);
 
-        IERC20(_tokenAddress).approve(_uniswapRouter, type(uint256).max);
-        IERC20(_usdt).approve(_uniswapRouter, type(uint256).max);
-        IERC20(_usdc).approve(_uniswapRouter, type(uint256).max);
+//        IERC20(_tokenAddress).approve(_uniswapRouter, type(uint256).max);
+//        IERC20(_usdt).approve(_uniswapRouter, type(uint256).max);
+//        IERC20(_usdc).approve(_uniswapRouter, type(uint256).max);
     }
 
     function buy(TokenType types, uint256 mortgage, uint256 amount) external payable {

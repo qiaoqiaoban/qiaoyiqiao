@@ -15,7 +15,7 @@ const {
         const Vault = (await ethers.getContractFactory("Vault"));
         const vault = await Vault.connect(addr1).deploy(addr1.address,addr2.address);
         console.log("Contract deploy :: ",vault.target)
-        const Leverage = (await ethers.getContractFactory("LeverageTrading"));
+        const Leverage = (await ethers.getContractFactory("QiaoQiaoProtocol"));
         const lv = await Leverage.connect(addr1).deploy(addr1.address,addr1.address,addr1.address,addr1.address,addr1.address);
         console.log("Leverage deploy :: ",lv.target)
   

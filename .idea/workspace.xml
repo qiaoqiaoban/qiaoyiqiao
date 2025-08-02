@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e204d4a-3647-4848-97d7-c50b93afa004" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/contracts/leverage.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/QiaoQiaoProtocol.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/QiaoQiaoProtocol.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/QiaoQiaoProtocol.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Vault.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/Vault.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +29,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="30irzZZVvWZJkKKkbeZu4gGOnlx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +46,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/hnhychlcool/work/chl/solidityspace/qiaoyiqiao",
+    "last_opened_file_path": "/Users/hnhychlcool/work/chl/sandbox/qiaoyiqiao",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -66,14 +67,12 @@
       <option name="presentableId" value="Default" />
       <updated>1754121498384</updated>
       <workItem from="1754121500296" duration="70000" />
+      <workItem from="1754124020484" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
