@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e204d4a-3647-4848-97d7-c50b93afa004" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/contracts/QiaoQiaoProtocol.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/QiaoQiaoProtocol.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Vault.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/Vault.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploymo.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploymo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,12 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/Users/hnhychlcool/work/chl/sandbox/qiaoyiqiao",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754121498384</updated>
       <workItem from="1754121500296" duration="70000" />
-      <workItem from="1754124020484" duration="19000" />
+      <workItem from="1754124020484" duration="988000" />
     </task>
     <servers />
   </component>

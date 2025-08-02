@@ -15,7 +15,7 @@ async function main() {
     // console.log("🍺 Vault Deploy success :: ",vault.target)
 
     // 🍺 0x3E795e7203e1D9a74348498EC00BAc6d76b28F1F
-    const LT = await ethers.getContractFactory("LeverageTrading");
+    const LT = await ethers.getContractFactory("QiaoQiaoProtocol");
     const lt = await LT.deploy(
         "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff", //Quickswap router
         "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619", //WBTC 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 || WETH 0x7ceb23fd6bc0add59e62ac25578270cff1b9f619
